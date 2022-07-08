@@ -1,8 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Estatio 
+A real estate app called Estatio is created using the Rapid API, Next JS, and Chakra UI. With this, you can search or filter content according to your needs. Check out the relevant Properties Info.
+
 
 ## Getting Started
 
-First, run the development server:
+First, setup the .env file and get your api key from Rapid API:
+
+```
+RAPID_API_HOST=YOUR_API_KEY
+RAPID_API_KEY=YOUR_API_KEY
+```
+
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -18,17 +27,21 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+> Dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Dashboard](https://user-images.githubusercontent.com/67114280/177991269-1482bd22-a502-49f1-8c94-fe8b6cd667c1.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> Search Or Filter
 
-## Deploy on Vercel
+![Search Or Filter](https://user-images.githubusercontent.com/67114280/177991421-680fd81f-0124-462c-b5e4-92789331ca48.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Buy 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Buy](https://user-images.githubusercontent.com/67114280/177991494-3eff959b-018b-4691-8049-50cc03d46c29.png)
+
+
+
+
+
